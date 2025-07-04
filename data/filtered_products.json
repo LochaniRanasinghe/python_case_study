@@ -1,30 +1,129 @@
 [
   {
-    "name": "Dell-  Inspiron 15\" Touch Screen Laptop  -  Intel Core i5 with 8GB Memory  -  512GB SSD  -  Black",
-    "link": "https://www.bestbuy.com/site/dell-inspiron-15-touch-screen-laptop-intel-core-i5-with-8gb-memory-512gb-ssd-black/6610570.p?skuId=6610570",
-    "price": "$629.99",
-    "rating": "Rating 4.7 out of 5 stars with 118 reviews",
-    "reviews": "118",
-    "sku": "6610570",
-    "model": "i3530-5623BLK-PUS"
-  },
-  {
-    "name": "Dell-  Inspiron 15\" Touch Screen Laptop  -  Intel Core i7 with 16GB Memory  -  1TB SSD  -  Black",
-    "link": "https://www.bestbuy.com/site/dell-inspiron-15-touch-screen-laptop-intel-core-i7-with-16gb-memory-1tb-ssd-black/6610571.p?skuId=6610571",
+    "name": "Lenovo-  Yoga 7i 2 - in - 1  -  Copilot+ PC  -  16\" 2K Touchscreen Laptop  -  Intel Core Ultra 5 Processor  -  16GB Memory  -  512GB SSD  -  Luna Grey",
+    "link": "https://www.bestbuy.com/site/lenovo-yoga-7i-2-in-1-copilot-pc-16-2k-touchscreen-laptop-intel-core-ultra-5-processor-16gb-memory-512gb-ssd-luna-grey/6615769.p?skuId=6615769",
     "price": "$649.99",
-    "rating": "Rating 4.6 out of 5 stars with 81 reviews",
-    "reviews": "81",
-    "sku": "6610571",
-    "model": "i3530-7728BLK-PUS"
+    "rating": "Rating 4.9 out of 5 stars with 7 reviews",
+    "reviews": "7",
+    "sku": "6615769",
+    "model": "83JT0000US"
   },
   {
-    "name": "Dell-  Inspiron 15\" Touch Screen Laptop  -  Intel Core i5 with 8GB Memory  -  512GB SSD  -  Black",
-    "link": "https://www.bestbuy.com/site/dell-inspiron-15-touch-screen-laptop-intel-core-i5-with-8gb-memory-512gb-ssd-black/6610570.p?skuId=6610570",
+    "name": "HP-  OmniBook 5 Flip 2 - in - 1 14\" 2K Touch - Screen Laptop  -  Intel Core 7  -  16GB Memory  -  512GB SSD  -  Glacier Silver",
+    "link": "https://www.bestbuy.com/site/hp-omnibook-5-flip-2-in-1-14-2k-touch-screen-laptop-intel-core-7-16gb-memory-512gb-ssd-glacier-silver/6614107.p?skuId=6614107",
+    "price": "$549.99",
+    "rating": "Rating 4.8 out of 5 stars with 19 reviews",
+    "reviews": "19",
+    "sku": "6614107",
+    "model": "14-fp0023dx"
+  },
+  {
+    "name": "Lenovo-  Yoga 9i 2 - in - 1 14\" 2.8K OLED Touchscreen Laptop with Pen  -  Intel Core Ultra 7 155H with 16GB Memory  -  1TB SSD  -  Cosmic Blue",
+    "link": "https://www.bestbuy.com/site/lenovo-yoga-9i-2-in-1-14-2-8k-oled-touchscreen-laptop-with-pen-intel-core-ultra-7-155h-with-16gb-memory-1tb-ssd-cosmic-blue/6571371.p?skuId=6571371",
+    "price": "$999.99",
+    "rating": "Rating 4.4 out of 5 stars with 222 reviews",
+    "reviews": "222",
+    "sku": "6571371",
+    "model": "83AC0001US"
+  },
+  {
+    "name": "HP-  17.3\" Full HD Laptop  -  AMD Ryzen 5  -  8GB Memory  -  512GB SSD  -  Natural Silver",
+    "link": "https://www.bestbuy.com/site/hp-17-3-full-hd-laptop-amd-ryzen-5-8gb-memory-512gb-ssd-natural-silver/6612252.p?skuId=6612252",
     "price": "$629.99",
-    "rating": "Rating 4.7 out of 5 stars with 118 reviews",
-    "reviews": "118",
-    "sku": "6610570",
-    "model": "i3530-5623BLK-PUS"
+    "rating": "Rating 4.7 out of 5 stars with 216 reviews",
+    "reviews": "216",
+    "sku": "6612252",
+    "model": "17-cp2025dx"
+  },
+  {
+    "name": "HP-  Victus 15.6\" 144Hz Full HD Gaming Laptop  -  Intel Core i5  -  8GB Memory  -  NVIDIA GeForce RTX 3050  -  512GB SSD  -  Mica Silver",
+    "link": "https://www.bestbuy.com/site/hp-victus-15-6-144hz-full-hd-gaming-laptop-intel-core-i5-8gb-memory-nvidia-geforce-rtx-3050-512gb-ssd-mica-silver/6618924.p?skuId=6618924",
+    "price": "$529.99",
+    "rating": "Rating 4.5 out of 5 stars with 50 reviews",
+    "reviews": "50",
+    "sku": "6618924",
+    "model": "15-fa2013dx"
+  },
+  {
+    "name": "Lenovo-  Yoga 7i 2 - in - 1  -  Copilot+ PC  -  14\" 2K OLED Touchscreen Laptop  -  Intel Core Ultra 7 Processor  -  16GB Memory  -  1TB SSD  -  Luna Grey",
+    "link": "https://www.bestbuy.com/site/lenovo-yoga-7i-2-in-1-copilot-pc-14-2k-oled-touchscreen-laptop-intel-core-ultra-7-processor-16gb-memory-1tb-ssd-luna-grey/6615777.p?skuId=6615777",
+    "price": "$799.99",
+    "rating": "Rating 5 out of 5 stars with 1 reviewfalse",
+    "reviews": "1",
+    "sku": "6615777",
+    "model": "83JQ000KUS"
+  },
+  {
+    "name": "HP-  14\" Refurbished 1920 x 1080 FHD  -  Intel 11th Gen Core i5 - 1145G7 with 32GB RAM  -  Intel Iris Xe Graphics  -  1TB SSD  -  Silver",
+    "link": "https://www.bestbuy.com/site/hp-14-refurbished-1920-x-1080-fhd-intel-11th-gen-core-i5-1145g7-with-32gb-ram-intel-iris-xe-graphics-1tb-ssd-silver/6545476.p?skuId=6545476",
+    "price": "$666.99",
+    "rating": "Rating 5 out of 5 stars with 1 reviewfalse",
+    "reviews": "1",
+    "sku": "6545476",
+    "model": "840 G8"
+  },
+  {
+    "name": "HP-  ZBook 15U G5 15.6\" Refurbished Laptop  -  Intel 8th Gen Core i7 with 32GB Memory  -  Intel UHD Graphics 620  -  512GB SSD  -  Silver",
+    "link": "https://www.bestbuy.com/site/hp-zbook-15u-g5-15-6-refurbished-laptop-intel-8th-gen-core-i7-with-32gb-memory-intel-uhd-graphics-620-512gb-ssd-silver/6579728.p?skuId=6579728",
+    "price": "$643.99",
+    "rating": "Not yet reviewed",
+    "reviews": "Not yet reviewed",
+    "sku": "6579728",
+    "model": "ZBook 15U G5"
+  },
+  {
+    "name": "HP-  ProBook 440 G11 14\" IPS 1920 x 1200 (WUXGA) Laptop  -  Intel Core Ultra 5 with 16GB Memory  -  256 GB SSD  -  Pike Silver, Silver",
+    "link": "https://www.bestbuy.com/site/hp-probook-440-g11-14-ips-1920-x-1200-wuxga-laptop-intel-core-ultra-5-with-16gb-memory-256-gb-ssd-pike-silver-silver/6588386.p?skuId=6588386",
+    "price": "$1,089.99",
+    "rating": "Not yet reviewed",
+    "reviews": "Not yet reviewed",
+    "sku": "6588386",
+    "model": "A1LC2UT#ABA"
+  },
+  {
+    "name": "HP-  Envy 2 - in - 1 16\" 2K Touch - Screen Laptop  -  AMD Ryzen 7  -  16GB Memory  -  1TB SSD  -  Meteor Silver",
+    "link": "https://www.bestbuy.com/site/hp-envy-2-in-1-16-2k-touch-screen-laptop-amd-ryzen-7-16gb-memory-1tb-ssd-meteor-silver/6571083.p?skuId=6571083",
+    "price": "$760.99",
+    "rating": "Rating 4.7 out of 5 stars with 790 reviews",
+    "reviews": "790",
+    "sku": "6571083",
+    "model": "16-ad0023dx/9S1M4UA#ABA"
+  },
+  {
+    "name": "HP-  OmniBook Ultra Flip  -  Copilot+ PC  -  14\" 3K OLED Touch - Screen Laptop  -  Intel Core Ultra 7  -  16GB Memory  -  1TB SSD  -  Eclipse Grey",
+    "link": "https://www.bestbuy.com/site/hp-omnibook-ultra-flip-copilot-pc-14-3k-oled-touch-screen-laptop-intel-core-ultra-7-16gb-memory-1tb-ssd-eclipse-grey/6593552.p?skuId=6593552",
+    "price": "$1,199.99",
+    "rating": "Rating 4.5 out of 5 stars with 155 reviews",
+    "reviews": "155",
+    "sku": "6593552",
+    "model": "14-fh0013dx/A9SR3UA#ABA"
+  },
+  {
+    "name": "HP-  Envy 2 - in - 1 16\" 2K Touch - Screen Laptop  -  Intel Core Ultra 7  -  16GB Memory  -  1TB SSD  -  Glacier Silver",
+    "link": "https://www.bestbuy.com/site/hp-envy-2-in-1-16-2k-touch-screen-laptop-intel-core-ultra-7-16gb-memory-1tb-ssd-glacier-silver/6571084.p?skuId=6571084",
+    "price": "$760.99",
+    "rating": "Rating 4.7 out of 5 stars with 1275 reviews",
+    "reviews": "1,275",
+    "sku": "6571084",
+    "model": "16-ac0023dx/9S1R6UA#ABA"
+  },
+  {
+    "name": "HP-  Envy 2 - in - 1 14\" 2K Touch - Screen Laptop  -  Intel Core Ultra 7  -  16GB Memory  -  1TB SSD  -  Meteor Silver",
+    "link": "https://www.bestbuy.com/site/hp-envy-2-in-1-14-2k-touch-screen-laptop-intel-core-ultra-7-16gb-memory-1tb-ssd-meteor-silver/6571085.p?skuId=6571085",
+    "price": "$701.99",
+    "rating": "Rating 4.7 out of 5 stars with 569 reviews",
+    "reviews": "569",
+    "sku": "6571085",
+    "model": "14-fc0023dx/9T8G4UA#ABA"
+  },
+  {
+    "name": "HP-  Envy 2 - in - 1 16\" 2K Touch - Screen Laptop  -  Intel Core Ultra 5  -  16GB Memory  -  512GB SSD  -  Glacier Silver",
+    "link": "https://www.bestbuy.com/site/hp-envy-2-in-1-16-2k-touch-screen-laptop-intel-core-ultra-5-16gb-memory-512gb-ssd-glacier-silver/6571081.p?skuId=6571081",
+    "price": "$617.99",
+    "rating": "Rating 4.7 out of 5 stars with 525 reviews",
+    "reviews": "525",
+    "sku": "6571081",
+    "model": "16-ac0013dx/9S1R5UA#ABA"
   },
   {
     "name": "N/A",
@@ -72,138 +171,12 @@
     "model": "N/A"
   },
   {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
-  },
-  {
-    "name": "N/A",
-    "link": "N/A",
-    "price": "N/A",
-    "rating": "N/A",
-    "reviews": "0",
-    "sku": "N/A",
-    "model": "N/A"
+    "name": "Lenovo-  Yoga 7i 2 - in - 1 16\" 2K Touchscreen Laptop  -  Intel Core Ultra 7 155U with 16GB Memory  -  1TB SSD  -  Storm Grey",
+    "link": "https://www.bestbuy.com/site/lenovo-yoga-7i-2-in-1-16-2k-touchscreen-laptop-intel-core-ultra-7-155u-with-16gb-memory-1tb-ssd-storm-grey/6571369.p?skuId=6571369",
+    "price": "$1,049.99",
+    "rating": "Rating 4.7 out of 5 stars with 1609 reviews",
+    "reviews": "1,609",
+    "sku": "6571369",
+    "model": "83DL0002US"
   }
 ]

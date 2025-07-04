@@ -946,3 +946,75 @@ TypeError: agg function failed [how->mean,dtype->object]
 2025-07-04 16:04:33,894 - INFO - \u2705 Product data saved to data/filtered_products.json
 2025-07-04 16:04:34,054 - INFO - \U0001f4ca Excel report generated at reports/summary.xlsx
 2025-07-04 16:04:37,765 - INFO - Browser closed.
+2025-07-04 16:29:06,639 - INFO - Starting browser
+2025-07-04 16:29:06,639 - INFO - ====== WebDriver manager ======
+2025-07-04 16:29:07,433 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 16:29:07,655 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 16:29:07,869 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 16:30:56,668 - INFO - Navigated to BestBuy
+2025-07-04 16:31:01,784 - INFO - No country splash shown
+2025-07-04 16:31:56,695 - INFO - Search submitted
+2025-07-04 16:32:20,081 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 16:32:24,317 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 16:32:25,333 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 16:32:26,347 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 16:32:27,429 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 16:32:29,443 - INFO - Applied brand filter: Apple
+2025-07-04 16:32:30,459 - INFO - Applied brand filter: Lenovo
+2025-07-04 16:32:31,473 - INFO - Applied brand filter: HP
+2025-07-04 16:32:32,539 - INFO - Closed modal after brand filter
+2025-07-04 16:32:32,574 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 16:32:33,576 - INFO - Waiting 10 seconds for full data load
+2025-07-04 16:32:43,576 - INFO - Scrolling through all pages...
+2025-07-04 16:32:47,761 - INFO - Found 23 product cards
+2025-07-04 16:32:47,771 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 16:32:47,959 - INFO - \U0001f4ca Excel report generated at reports/summary.xlsx
+2025-07-04 16:32:50,899 - INFO - Browser closed.
+2025-07-04 16:33:03,360 - INFO - Starting browser
+2025-07-04 16:33:03,360 - INFO - ====== WebDriver manager ======
+2025-07-04 16:33:04,181 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 16:33:04,418 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 16:33:04,663 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 16:33:06,743 - INFO - Navigated to BestBuy
+2025-07-04 16:33:14,405 - INFO - No country splash shown
+2025-07-04 16:33:18,590 - INFO - Search submitted
+2025-07-04 16:33:30,116 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 16:33:34,342 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 16:33:35,557 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 16:33:36,818 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 16:33:37,927 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 16:33:40,265 - INFO - Applied brand filter: Apple
+2025-07-04 16:33:41,412 - INFO - Applied brand filter: Lenovo
+2025-07-04 16:33:42,578 - INFO - Applied brand filter: HP
+2025-07-04 16:33:43,650 - INFO - Closed modal after brand filter
+2025-07-04 16:33:43,697 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 16:33:44,698 - INFO - Waiting 10 seconds for full data load
+2025-07-04 16:33:54,698 - INFO - Scrolling through all pages...
+2025-07-04 16:34:01,001 - INFO - Found 23 product cards
+2025-07-04 16:34:01,017 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 16:34:01,266 - INFO - \U0001f4ca Excel report generated at reports/summary.xlsx
+2025-07-04 16:34:03,959 - INFO - Browser closed.
+2025-07-04 16:35:21,036 - INFO - Starting browser
+2025-07-04 16:35:21,036 - INFO - ====== WebDriver manager ======
+2025-07-04 16:35:21,848 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 16:35:22,170 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 16:35:22,338 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 16:35:23,996 - INFO - Navigated to BestBuy
+2025-07-04 16:35:30,667 - INFO - No country splash shown
+2025-07-04 16:35:35,068 - INFO - Search submitted
+2025-07-04 16:35:43,538 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 16:35:47,756 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 16:35:48,995 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 16:35:50,223 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 16:35:51,383 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 16:35:53,638 - INFO - Applied brand filter: Apple
+2025-07-04 16:35:54,731 - INFO - Applied brand filter: Lenovo
+2025-07-04 16:35:55,904 - INFO - Applied brand filter: HP
+2025-07-04 16:35:56,972 - INFO - Closed modal after brand filter
+2025-07-04 16:35:57,019 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 16:35:58,020 - INFO - Waiting 10 seconds for full data load
+2025-07-04 16:36:08,020 - INFO - Scrolling through all pages...
+2025-07-04 16:36:14,299 - INFO - Found 20 product cards
+2025-07-04 16:36:14,317 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 16:36:14,521 - INFO - \U0001f4ca Excel report generated at reports/summary.xlsx
+2025-07-04 16:36:16,794 - INFO - Browser closed.
