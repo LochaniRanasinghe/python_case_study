@@ -105,14 +105,13 @@ def main():
                 logging.warning(f"Brand filter error: {brand}: {e}")
 
         # Apply 4+ rating filter
+        # Apply 4+ rating filter
         try:
-            rating_label = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//label[contains(., '4') and contains(., 'Up')]")
-                )
+            rating_label = WebDriverWait(driver, 5).until(
+                EC.presence_of_element_located((By.XPATH, "//label[contains(@for, 'customer-rating-4_&_Up')]"))
             )
-            rating_input = rating_label.find_element(By.TAG_NAME, "input")
-            driver.execute_script("arguments[0].click();", rating_input)
+            rating_checkbox = rating_label.find_element(By.TAG_NAME, "input")
+            driver.execute_script("arguments[0].click();", rating_checkbox)
             logging.info("Applied rating filter: 4 stars & up")
             time.sleep(1)
         except Exception as e:

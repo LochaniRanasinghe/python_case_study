@@ -476,3 +476,111 @@ Stacktrace:
 	RtlInitializeExceptionChain [0x0x77d8c36b+107]
 	RtlClearBits [0x0x77d8c2ef+191]
 
+2025-07-04 13:39:05,059 - INFO - Starting browser
+2025-07-04 13:39:05,059 - INFO - ====== WebDriver manager ======
+2025-07-04 13:39:05,817 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:39:05,958 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:39:06,256 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 13:39:09,473 - INFO - Navigated to BestBuy
+2025-07-04 13:39:17,676 - INFO - No country splash shown
+2025-07-04 13:39:17,799 - INFO - Search submitted
+2025-07-04 13:39:27,811 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 13:39:31,812 - INFO - Applying filters...
+2025-07-04 13:39:32,032 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 13:39:33,399 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 13:39:34,594 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 13:39:35,661 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 13:39:37,974 - INFO - Applied brand filter: Apple
+2025-07-04 13:39:39,092 - INFO - Applied brand filter: Lenovo
+2025-07-04 13:39:40,275 - INFO - Applied brand filter: HP
+2025-07-04 13:39:46,381 - WARNING - Rating filter error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 13:39:46,381 - INFO - \u2705 All filters applied successfully
+2025-07-04 13:39:50,125 - INFO - Browser closed.
+2025-07-04 13:41:58,552 - INFO - Starting browser
+2025-07-04 13:41:58,552 - INFO - ====== WebDriver manager ======
+2025-07-04 13:41:59,306 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:41:59,541 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:41:59,780 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 13:42:03,022 - INFO - Navigated to BestBuy
+2025-07-04 13:42:09,608 - INFO - No country splash shown
+2025-07-04 13:42:09,762 - INFO - Search submitted
+2025-07-04 13:42:21,533 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 13:42:25,534 - INFO - Applying filters...
+2025-07-04 13:42:25,742 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 13:42:26,942 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 13:42:28,130 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 13:42:29,193 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 13:42:31,414 - INFO - Applied brand filter: Apple
+2025-07-04 13:42:32,509 - INFO - Applied brand filter: Lenovo
+2025-07-04 13:42:33,667 - INFO - Applied brand filter: HP
+2025-07-04 13:42:39,952 - WARNING - Rating filter error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 13:42:39,953 - INFO - \u2705 All filters applied successfully
+2025-07-04 13:42:43,546 - INFO - Browser closed.
+2025-07-04 13:43:51,145 - INFO - Starting browser
+2025-07-04 13:43:51,145 - INFO - ====== WebDriver manager ======
+2025-07-04 13:43:51,899 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:43:52,118 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:43:52,354 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 13:43:55,715 - INFO - Navigated to BestBuy
+2025-07-04 13:44:05,509 - INFO - No country splash shown
+2025-07-04 13:44:05,631 - INFO - Search submitted
+2025-07-04 13:44:21,682 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 13:44:25,682 - INFO - Applying filters...
+2025-07-04 13:44:25,892 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 13:44:27,197 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 13:44:28,391 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 13:44:29,459 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 13:44:31,684 - INFO - Applied brand filter: Apple
+2025-07-04 13:44:32,774 - INFO - Applied brand filter: Lenovo
+2025-07-04 13:44:33,930 - INFO - Applied brand filter: HP
+2025-07-04 13:44:34,971 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 13:44:35,972 - INFO - \u2705 All filters applied successfully
+2025-07-04 13:44:39,706 - INFO - Browser closed.

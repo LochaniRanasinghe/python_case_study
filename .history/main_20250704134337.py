@@ -105,6 +105,7 @@ def main():
                 logging.warning(f"Brand filter error: {brand}: {e}")
 
         # Apply 4+ rating filter
+        # Apply 4 stars & up rating filter reliably
         try:
             rating_label = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located(
@@ -117,6 +118,7 @@ def main():
             time.sleep(1)
         except Exception as e:
             logging.warning(f"Rating filter error: {e}")
+
 
 
         print("✅ Filters applied successfully.")
