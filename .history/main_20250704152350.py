@@ -23,7 +23,7 @@ logging.basicConfig(
 
 def setup_driver():
     options = Options()
-    options.add_argument('--headless')  
+    # options.add_argument('--headless')  # Uncomment for headless scraping
     options.add_argument('--disable-gpu')
     options.add_argument('--window-size=1920,1080')
     return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
@@ -60,28 +60,14 @@ def extract_filtered_data_from_html(html):
         if link != "N/A" and not link.startswith("http"):
             link = "https://www.bestbuy.com" + link
 
-        # Extract SKU and Model from product-attributes
-        model = "N/A"
-        sku = "N/A"
-        try:
-            attributes = card.select("div.product-attributes div.attribute")
-            for attr in attributes:
-                text = attr.get_text(strip=True)
-                if "Model:" in text:
-                    model = attr.select_one("span.value").get_text(strip=True)
-                elif "SKU:" in text:
-                    sku = attr.select_one("span.value").get_text(strip=True)
-        except Exception as e:
-            logging.warning(f"Error extracting model/SKU: {e}")
-
         products.append({
             "name": name,
             "link": link,
             "price": price,
             "rating": rating,
             "reviews": reviews,
-            "sku": sku,
-            "model": model
+            "sku": "N/A",
+            "model": "N/A"
         })
 
     with open("data/filtered_products.json", "w", encoding="utf-8") as f:
@@ -89,7 +75,6 @@ def extract_filtered_data_from_html(html):
 
     logging.info("✅ Product data saved to data/filtered_products.json")
     print(f"✅ {len(products)} products extracted and saved.")
-
 
 def main():
     logging.info("Starting browser")

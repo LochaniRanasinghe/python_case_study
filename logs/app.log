@@ -604,3 +604,209 @@ Stacktrace:
 2025-07-04 13:53:07,692 - INFO - Applied rating filter: 4 stars & up
 2025-07-04 13:53:08,693 - INFO - \u2705 All filters applied successfully
 2025-07-04 13:53:14,413 - INFO - Browser closed.
+2025-07-04 14:36:25,878 - INFO - Starting browser
+2025-07-04 14:36:25,878 - INFO - ====== WebDriver manager ======
+2025-07-04 14:36:26,643 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 14:36:26,865 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 14:36:27,060 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 14:36:30,355 - INFO - Navigated to BestBuy
+2025-07-04 14:36:39,659 - INFO - No country splash shown
+2025-07-04 14:36:44,868 - INFO - Search submitted
+2025-07-04 14:36:54,895 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 14:36:58,896 - INFO - Applying filters...
+2025-07-04 14:36:59,110 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 14:37:00,319 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 14:37:01,645 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 14:37:02,756 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 14:37:04,986 - INFO - Applied brand filter: Apple
+2025-07-04 14:37:06,073 - INFO - Applied brand filter: Lenovo
+2025-07-04 14:37:07,220 - INFO - Applied brand filter: HP
+2025-07-04 14:37:08,244 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 14:37:09,245 - INFO - \u2705 All filters applied successfully
+2025-07-04 14:37:09,363 - INFO - Found 20 products after filtering.
+2025-07-04 14:37:09,373 - INFO - \u2705 Saved product data to data/filtered_products.json
+2025-07-04 14:37:15,120 - INFO - Browser closed.
+2025-07-04 14:54:23,072 - INFO - Starting browser
+2025-07-04 14:54:23,072 - INFO - ====== WebDriver manager ======
+2025-07-04 14:54:23,828 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 14:54:24,047 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 14:54:24,303 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 14:54:27,472 - INFO - Navigated to BestBuy
+2025-07-04 14:54:39,045 - INFO - No country splash shown
+2025-07-04 14:54:43,802 - INFO - Search submitted
+2025-07-04 14:54:53,778 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 14:54:57,778 - INFO - Applying filters...
+2025-07-04 14:54:57,993 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 14:54:59,219 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 14:55:00,545 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 14:55:01,676 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 14:55:03,902 - INFO - Applied brand filter: Apple
+2025-07-04 14:55:04,991 - INFO - Applied brand filter: Lenovo
+2025-07-04 14:55:06,155 - INFO - Applied brand filter: HP
+2025-07-04 14:55:07,316 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 14:55:08,317 - INFO - \u2705 All filters applied successfully
+2025-07-04 14:55:08,322 - INFO - Current filtered URL: https://www.bestbuy.com/site/searchpage.jsp?browsedCategory=pcmcat247400050000&id=pcat17071&qp=currentprice_facet%3DPrice%7E%24500+-+%24749.99%5Ecurrentprice_facet%3DPrice%7E%24750+-+%24999.99%5Ecurrentprice_facet%3DPrice%7E%241000+-+%241249.99%5Ebrand_facet%3DBrand%7EApple%5Ebrand_facet%3DBrand%7ELenovo%5Ebrand_facet%3DBrand%7EHP&st=categoryid%24pcmcat247400050000
+2025-07-04 14:55:14,056 - INFO - Browser closed.
+2025-07-04 15:01:07,303 - INFO - Starting browser
+2025-07-04 15:01:07,303 - INFO - ====== WebDriver manager ======
+2025-07-04 15:01:08,057 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:01:08,199 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:01:08,358 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 15:01:11,758 - INFO - Navigated to BestBuy
+2025-07-04 15:01:21,250 - INFO - No country splash shown
+2025-07-04 15:01:30,589 - INFO - Search submitted
+2025-07-04 15:01:35,514 - WARNING - Could not click 'Windows laptops' chip
+2025-07-04 15:01:39,515 - INFO - Applying filters...
+2025-07-04 15:01:39,783 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 15:01:41,077 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 15:01:42,530 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 15:01:43,689 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 15:01:45,934 - INFO - Applied brand filter: Apple
+2025-07-04 15:01:47,094 - INFO - Applied brand filter: Lenovo
+2025-07-04 15:01:48,306 - INFO - Applied brand filter: HP
+2025-07-04 15:01:49,729 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 15:01:50,730 - INFO - \u2705 All filters applied successfully
+2025-07-04 15:01:50,880 - INFO - Found 18 product cards
+2025-07-04 15:01:50,888 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 15:01:56,595 - INFO - Browser closed.
+2025-07-04 15:10:16,014 - INFO - Starting browser
+2025-07-04 15:10:16,014 - INFO - ====== WebDriver manager ======
+2025-07-04 15:10:16,767 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:10:16,977 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:10:17,172 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 15:10:20,463 - INFO - Navigated to BestBuy
+2025-07-04 15:10:28,827 - INFO - No country splash shown
+2025-07-04 15:10:34,018 - INFO - Search submitted
+2025-07-04 15:10:42,399 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 15:10:46,401 - INFO - Applying filters...
+2025-07-04 15:10:46,674 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 15:10:47,882 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 15:10:49,073 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 15:10:50,164 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 15:10:52,455 - INFO - Applied brand filter: Apple
+2025-07-04 15:10:53,545 - INFO - Applied brand filter: Lenovo
+2025-07-04 15:10:54,695 - INFO - Applied brand filter: HP
+2025-07-04 15:10:55,721 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 15:10:56,722 - INFO - \u2705 All filters applied successfully
+2025-07-04 15:10:56,836 - INFO - Found 20 product cards
+2025-07-04 15:10:56,844 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 15:11:02,597 - INFO - Browser closed.
+2025-07-04 15:11:02,597 - INFO - ====== WebDriver manager ======
+2025-07-04 15:11:03,379 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:11:03,512 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:11:03,734 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 15:12:37,473 - INFO - Starting browser
+2025-07-04 15:12:37,473 - INFO - ====== WebDriver manager ======
+2025-07-04 15:12:38,210 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:12:38,351 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:12:38,561 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 15:12:41,909 - INFO - Navigated to BestBuy
+2025-07-04 15:12:50,687 - INFO - No country splash shown
+2025-07-04 15:12:55,717 - INFO - Search submitted
+2025-07-04 15:13:02,764 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 15:13:06,764 - INFO - Applying filters...
+2025-07-04 15:13:06,988 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 15:13:08,204 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 15:13:09,428 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 15:13:10,504 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 15:13:12,753 - INFO - Applied brand filter: Apple
+2025-07-04 15:13:13,880 - INFO - Applied brand filter: Lenovo
+2025-07-04 15:13:15,058 - INFO - Applied brand filter: HP
+2025-07-04 15:13:16,131 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 15:13:17,132 - INFO - \u2705 All filters applied successfully
+2025-07-04 15:13:17,297 - INFO - Found 21 product cards
+2025-07-04 15:13:17,307 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 15:13:23,077 - INFO - Browser closed.
+2025-07-04 15:19:02,067 - INFO - Starting browser
+2025-07-04 15:19:02,067 - INFO - ====== WebDriver manager ======
+2025-07-04 15:19:02,809 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:19:03,160 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:19:03,343 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 15:19:06,517 - INFO - Navigated to BestBuy
+2025-07-04 15:19:18,194 - INFO - No country splash shown
+2025-07-04 15:19:22,354 - INFO - Search submitted
+2025-07-04 15:19:31,410 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 15:19:35,412 - INFO - Applying filters...
+2025-07-04 15:19:35,621 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 15:19:36,820 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 15:19:38,019 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 15:19:39,117 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 15:19:41,368 - INFO - Applied brand filter: Apple
+2025-07-04 15:19:42,459 - INFO - Applied brand filter: Lenovo
+2025-07-04 15:19:43,608 - INFO - Applied brand filter: HP
+2025-07-04 15:19:44,671 - INFO - Closed modal sheet after brand selection
+2025-07-04 15:19:44,713 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 15:19:45,717 - INFO - Waiting extra 10s to ensure data is loaded
+2025-07-04 15:19:55,718 - INFO - \u2705 All filters applied successfully
+2025-07-04 15:19:55,870 - INFO - Found 21 product cards
+2025-07-04 15:19:55,877 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 15:20:01,618 - INFO - Browser closed.
+2025-07-04 15:23:54,646 - INFO - Starting browser
+2025-07-04 15:23:54,646 - INFO - ====== WebDriver manager ======
+2025-07-04 15:23:55,385 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:23:55,526 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:23:55,720 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 15:23:58,160 - INFO - Navigated to BestBuy
+2025-07-04 15:24:07,145 - INFO - No country splash shown
+2025-07-04 15:24:10,765 - INFO - Search submitted
+2025-07-04 15:24:25,500 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 15:24:29,701 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 15:24:30,896 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 15:24:32,089 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 15:24:33,298 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 15:24:35,594 - INFO - Applied brand filter: Apple
+2025-07-04 15:24:36,687 - INFO - Applied brand filter: Lenovo
+2025-07-04 15:24:37,856 - INFO - Applied brand filter: HP
+2025-07-04 15:24:38,932 - INFO - Closed modal after brand filter
+2025-07-04 15:24:38,965 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 15:24:39,970 - INFO - Waiting 10 seconds for full data load
+2025-07-04 15:24:49,970 - INFO - Scrolling through all pages...
+2025-07-04 15:24:56,207 - INFO - Found 20 product cards
+2025-07-04 15:24:56,215 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 15:24:59,953 - INFO - Browser closed.
+2025-07-04 15:25:46,817 - INFO - Starting browser
+2025-07-04 15:25:46,817 - INFO - ====== WebDriver manager ======
+2025-07-04 15:25:47,559 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:25:48,028 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:25:48,379 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 15:27:36,189 - INFO - Navigated to BestBuy
+2025-07-04 15:27:41,316 - INFO - No country splash shown
+2025-07-04 15:29:02,402 - INFO - Search submitted
+2025-07-04 15:29:29,571 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 15:29:33,798 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 15:29:34,814 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 15:29:35,831 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 15:29:36,904 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 15:29:38,921 - INFO - Applied brand filter: Apple
+2025-07-04 15:29:39,934 - INFO - Applied brand filter: Lenovo
+2025-07-04 15:29:40,950 - INFO - Applied brand filter: HP
+2025-07-04 15:29:42,019 - INFO - Closed modal after brand filter
+2025-07-04 15:29:42,047 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 15:29:43,048 - INFO - Waiting 10 seconds for full data load
+2025-07-04 15:29:53,048 - INFO - Scrolling through all pages...
+2025-07-04 15:29:57,214 - INFO - Found 23 product cards
+2025-07-04 15:29:57,223 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 15:30:00,896 - INFO - Browser closed.
+2025-07-04 15:32:15,717 - INFO - Starting browser
+2025-07-04 15:32:15,717 - INFO - ====== WebDriver manager ======
+2025-07-04 15:32:16,452 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:32:16,625 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 15:32:16,876 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 15:34:04,685 - INFO - Navigated to BestBuy
+2025-07-04 15:34:09,807 - INFO - No country splash shown
+2025-07-04 15:35:14,845 - INFO - Search submitted
+2025-07-04 15:35:37,220 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 15:35:41,424 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 15:35:42,441 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 15:35:43,456 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 15:35:44,531 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 15:35:46,545 - INFO - Applied brand filter: Apple
+2025-07-04 15:35:47,558 - INFO - Applied brand filter: Lenovo
+2025-07-04 15:35:48,576 - INFO - Applied brand filter: HP
+2025-07-04 15:35:49,644 - INFO - Closed modal after brand filter
+2025-07-04 15:35:49,667 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 15:35:50,669 - INFO - Waiting 10 seconds for full data load
+2025-07-04 15:36:00,669 - INFO - Scrolling through all pages...
+2025-07-04 15:36:04,851 - INFO - Found 23 product cards
+2025-07-04 15:36:04,864 - INFO - \u2705 Product data saved to data/filtered_products.json
+2025-07-04 15:36:08,595 - INFO - Browser closed.

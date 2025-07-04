@@ -23,65 +23,66 @@ logging.basicConfig(
 
 def setup_driver():
     options = Options()
-    options.add_argument('--headless')  
+    # options.add_argument('--headless')  # Enable for headless mode
     options.add_argument('--disable-gpu')
     options.add_argument('--window-size=1920,1080')
     return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-def scroll_through_all_pages(driver):
-    last_height = driver.execute_script("return document.body.scrollHeight")
-    while True:
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(2)
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            break
-        last_height = new_height
-
 def extract_filtered_data_from_html(html):
     soup = BeautifulSoup(html, "html.parser")
+
+    product_names = []
+    product_prices = []
+    product_ratings = []
+    review_counts = []
+    product_links = []
+
     product_cards = soup.find_all("li", class_="product-list-item")
     logging.info(f"Found {len(product_cards)} product cards")
 
-    products = []
     for card in product_cards:
-        def safe_select(selector, default="N/A", attr=None):
-            try:
-                tag = card.select_one(selector)
-                return tag[attr] if attr else tag.get_text(strip=True)
-            except:
-                return default
-
-        name = safe_select("h2.product-title")
-        price = safe_select("div[data-testid='medium-customer-price']")
-        rating = safe_select(".c-ratings-reviews .visually-hidden")
-        reviews = safe_select(".c-reviews", default="0").strip("()")
-        link = safe_select("a.product-list-item-link", attr="href")
-        if link != "N/A" and not link.startswith("http"):
-            link = "https://www.bestbuy.com" + link
-
-        # Extract SKU and Model from product-attributes
-        model = "N/A"
-        sku = "N/A"
         try:
-            attributes = card.select("div.product-attributes div.attribute")
-            for attr in attributes:
-                text = attr.get_text(strip=True)
-                if "Model:" in text:
-                    model = attr.select_one("span.value").get_text(strip=True)
-                elif "SKU:" in text:
-                    sku = attr.select_one("span.value").get_text(strip=True)
-        except Exception as e:
-            logging.warning(f"Error extracting model/SKU: {e}")
+            title_tag = card.select_one("h2.product-title")
+            product_names.append(title_tag.get_text(strip=True))
+        except:
+            product_names.append("N/A")
 
+        try:
+            price_tag = card.select_one("div[data-testid='medium-customer-price']")
+            product_prices.append(price_tag.get_text(strip=True))
+        except:
+            product_prices.append("N/A")
+
+        try:
+            rating_tag = card.select_one(".c-ratings-reviews .visually-hidden")
+            product_ratings.append(rating_tag.get_text(strip=True))
+        except:
+            product_ratings.append("N/A")
+
+        try:
+            review_tag = card.select_one(".c-reviews")
+            review_counts.append(review_tag.get_text(strip=True).strip("()"))
+        except:
+            review_counts.append("0")
+
+        try:
+            link_tag = card.select_one("a.product-list-item-link")
+            href = link_tag["href"]
+            full_link = href if href.startswith("http") else "https://www.bestbuy.com" + href
+            product_links.append(full_link)
+        except:
+            product_links.append("N/A")
+
+    products = []
+    for i in range(len(product_names)):
         products.append({
-            "name": name,
-            "link": link,
-            "price": price,
-            "rating": rating,
-            "reviews": reviews,
-            "sku": sku,
-            "model": model
+            "name": product_names[i],
+            "link": product_links[i],
+            "price": product_prices[i],
+            "rating": product_ratings[i],
+            "reviews": review_counts[i],
+            "sku": "N/A",
+            "model": "N/A"
         })
 
     with open("data/filtered_products.json", "w", encoding="utf-8") as f:
@@ -89,7 +90,6 @@ def extract_filtered_data_from_html(html):
 
     logging.info("✅ Product data saved to data/filtered_products.json")
     print(f"✅ {len(products)} products extracted and saved.")
-
 
 def main():
     logging.info("Starting browser")
@@ -100,7 +100,7 @@ def main():
         logging.info("Navigated to BestBuy")
         wait = WebDriverWait(driver, 15)
 
-        # Country splash
+        # Handle splash
         try:
             us_link = WebDriverWait(driver, 5).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "a.us-link"))
@@ -128,8 +128,8 @@ def main():
             logging.warning("Could not click 'Windows laptops' chip")
 
         time.sleep(4)
+        logging.info("Applying filters...")
 
-        # Apply price filters
         for price_id in ["$500_-_$749.99", "$750_-_$999.99", "$1000_-_$1249.99"]:
             try:
                 price_checkbox = driver.find_element(By.ID, price_id)
@@ -139,7 +139,7 @@ def main():
             except Exception as e:
                 logging.warning(f"Couldn't select price {price_id}: {e}")
 
-        # Expand and apply brand filters
+        # Expand brand filters
         try:
             show_all_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-show-more='brand_facet']")))
             driver.execute_script("arguments[0].click();", show_all_button)
@@ -148,6 +148,7 @@ def main():
         except Exception as e:
             logging.warning(f"Couldn't click 'Show all' button: {e}")
 
+        # Apply brand filters
         for brand in ["Apple", "Lenovo", "HP"]:
             try:
                 brand_checkbox = driver.find_element(By.ID, brand)
@@ -157,20 +158,22 @@ def main():
             except Exception as e:
                 logging.warning(f"Couldn't select brand {brand}: {e}")
 
-        # Close modal if appears
+        # Close modal if exists
         try:
-            modal = WebDriverWait(driver, 5).until(
+            modal_header = WebDriverWait(driver, 5).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='sheet-id-header']"))
             )
             close_button = driver.find_element(By.CSS_SELECTOR, "[data-testid='sheet-id-closeButton']")
             driver.execute_script("arguments[0].click();", close_button)
-            logging.info("Closed modal after brand filter")
+            logging.info("Closed modal sheet after brand selection")
         except:
-            logging.info("No modal appeared")
+            logging.info("No modal sheet appeared")
 
         # Apply rating filter
         try:
-            rating_label = wait.until(EC.presence_of_element_located((By.XPATH, "//label[contains(., '4') and contains(., 'Up')]")))
+            rating_label = wait.until(EC.presence_of_element_located(
+                (By.XPATH, "//label[contains(., '4') and contains(., 'Up')]")
+            ))
             rating_input = rating_label.find_element(By.TAG_NAME, "input")
             driver.execute_script("arguments[0].click();", rating_input)
             logging.info("Applied rating filter: 4 stars & up")
@@ -178,13 +181,13 @@ def main():
         except Exception as e:
             logging.warning(f"Rating filter error: {e}")
 
-        # Wait and scroll
-        logging.info("Waiting 10 seconds for full data load")
+        # Extra wait for dynamic data to load
+        logging.info("Waiting extra 10s to ensure data is loaded")
         time.sleep(10)
-        logging.info("Scrolling through all pages...")
-        scroll_through_all_pages(driver)
 
-        # Parse and extract
+        logging.info("✅ All filters applied successfully")
+        print("✅ All filters applied successfully")
+
         html = driver.page_source
         with open("logs/rendered_page.html", "w", encoding="utf-8") as f:
             f.write(html)
@@ -196,6 +199,7 @@ def main():
         logging.error(f"An error occurred: {e}", exc_info=True)
         print("❌ Filtering failed. Check logs and screenshot.")
     finally:
+        time.sleep(2)
         driver.quit()
         logging.info("Browser closed.")
 
