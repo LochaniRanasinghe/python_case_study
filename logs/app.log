@@ -1,0 +1,369 @@
+2025-07-04 11:47:36,964 - INFO - Starting browser
+2025-07-04 11:47:36,964 - INFO - ====== WebDriver manager ======
+2025-07-04 11:47:37,738 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:47:37,958 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:47:38,212 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 11:48:07,683 - INFO - Navigated to BestBuy
+2025-07-04 11:48:22,988 - ERROR - An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 11:51:30,494 - INFO - Starting browser
+2025-07-04 11:51:30,494 - INFO - ====== WebDriver manager ======
+2025-07-04 11:51:31,251 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:51:31,412 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:51:31,616 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 11:51:33,604 - INFO - Navigated to BestBuy
+2025-07-04 11:51:49,367 - ERROR - An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Documents\Projects\python_case_study\main.py", line 32, in main
+    search_bar = wait.until(EC.presence_of_element_located((By.ID, "autocomplete-search-bar")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Documents\Projects\python_case_study\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 11:54:23,368 - INFO - Starting browser
+2025-07-04 11:54:23,369 - INFO - ====== WebDriver manager ======
+2025-07-04 11:54:24,131 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:54:24,320 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:54:24,569 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 11:54:25,908 - INFO - Navigated to BestBuy
+2025-07-04 11:54:41,631 - ERROR - An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Documents\Projects\python_case_study\main.py", line 32, in main
+    search_bar = wait.until(EC.presence_of_element_located((By.ID, "autocomplete-search-bar")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Documents\Projects\python_case_study\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 11:54:59,952 - INFO - Starting browser
+2025-07-04 11:54:59,952 - INFO - ====== WebDriver manager ======
+2025-07-04 11:55:00,717 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:55:00,885 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:55:01,118 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 11:55:02,909 - INFO - Navigated to BestBuy
+2025-07-04 11:55:18,284 - ERROR - An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Documents\Projects\python_case_study\main.py", line 32, in main
+    search_bar = wait.until(EC.presence_of_element_located((By.ID, "autocomplete-search-bar")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Documents\Projects\python_case_study\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 11:59:07,549 - INFO - Starting browser
+2025-07-04 11:59:07,549 - INFO - ====== WebDriver manager ======
+2025-07-04 11:59:08,306 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:59:08,469 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 11:59:08,676 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 11:59:10,469 - INFO - Navigated to BestBuy with no-splash
+2025-07-04 11:59:20,563 - INFO - No splash country selection displayed
+2025-07-04 11:59:20,692 - INFO - Entered search query: laptop
+2025-07-04 11:59:24,820 - INFO - Clicked search button
+2025-07-04 11:59:40,443 - ERROR - An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Documents\Projects\python_case_study\main.py", line 63, in main
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".sku-item")))
+  File "C:\Users\Asus\Documents\Projects\python_case_study\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 12:23:07,048 - INFO - Starting browser
+2025-07-04 12:23:07,048 - INFO - ====== WebDriver manager ======
+2025-07-04 12:23:07,810 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 12:23:07,958 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 12:23:08,131 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 12:23:11,360 - INFO - Navigated to BestBuy with no-splash
+2025-07-04 12:23:18,319 - INFO - No country selection shown
+2025-07-04 12:23:18,482 - INFO - Entered search query
+2025-07-04 12:23:22,094 - INFO - Clicked search button
+2025-07-04 12:23:28,367 - INFO - Clicked 'Windows laptops' category
+2025-07-04 12:23:32,582 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 12:23:33,796 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 12:23:35,066 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 12:23:36,486 - INFO - Applied brand filter: Apple
+2025-07-04 12:23:37,497 - WARNING - Couldn't select brand Lenovo: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Lenovo"]"}
+  (Session info: chrome=138.0.7204.96); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 12:23:37,506 - WARNING - Couldn't select brand HP: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="HP"]"}
+  (Session info: chrome=138.0.7204.96); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 12:23:37,515 - WARNING - Couldn't apply rating filter: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="customer-rating-4_&_Up"]"}
+  (Session info: chrome=138.0.7204.96); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
