@@ -367,3 +367,112 @@ Stacktrace:
 	RtlInitializeExceptionChain [0x0x77d8c36b+107]
 	RtlClearBits [0x0x77d8c2ef+191]
 
+2025-07-04 12:50:10,420 - INFO - Starting browser
+2025-07-04 12:50:10,420 - INFO - ====== WebDriver manager ======
+2025-07-04 12:50:11,160 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 12:50:11,311 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 12:50:11,529 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 12:50:14,943 - INFO - Navigated to BestBuy with no-splash
+2025-07-04 12:50:22,725 - INFO - No country selection shown
+2025-07-04 12:50:22,865 - INFO - Entered search query
+2025-07-04 12:50:30,052 - INFO - Clicked search button
+2025-07-04 12:50:37,256 - INFO - Clicked 'Windows laptops' category
+2025-07-04 12:50:41,498 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 12:50:42,781 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 12:50:44,074 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 12:50:45,090 - INFO - Applied brand filter: Apple
+2025-07-04 12:50:46,260 - INFO - Applied brand filter: Lenovo
+2025-07-04 12:50:47,399 - INFO - Applied brand filter: HP
+2025-07-04 12:50:48,417 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 13:06:13,212 - INFO - Starting browser
+2025-07-04 13:06:13,212 - INFO - ====== WebDriver manager ======
+2025-07-04 13:06:13,958 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:06:14,114 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:06:14,271 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 13:06:17,584 - INFO - Navigated to BestBuy with no-splash
+2025-07-04 13:06:30,578 - INFO - No country selection shown
+2025-07-04 13:06:30,695 - INFO - Entered search query
+2025-07-04 13:06:40,164 - INFO - Clicked search button
+2025-07-04 13:06:46,197 - INFO - Clicked 'Windows laptops' category
+2025-07-04 13:06:50,409 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 13:06:51,632 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 13:06:52,876 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 13:06:54,100 - INFO - Applied brand filter: Apple
+2025-07-04 13:06:55,110 - WARNING - Couldn't select brand Lenovo: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Lenovo"]"}
+  (Session info: chrome=138.0.7204.96); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 13:06:55,118 - WARNING - Couldn't select brand HP: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="HP"]"}
+  (Session info: chrome=138.0.7204.96); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
+2025-07-04 13:06:55,128 - WARNING - Couldn't apply rating filter: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="customer-rating-4_&_Up"]"}
+  (Session info: chrome=138.0.7204.96); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x414553+62419]
+	GetHandleVerifier [0x0x414594+62484]
+	(No symbol) [0x0x252133]
+	(No symbol) [0x0x29a8fe]
+	(No symbol) [0x0x29ac9b]
+	(No symbol) [0x0x2e3052]
+	(No symbol) [0x0x2bf4b4]
+	(No symbol) [0x0x2e087a]
+	(No symbol) [0x0x2bf266]
+	(No symbol) [0x0x28e852]
+	(No symbol) [0x0x28f6f4]
+	GetHandleVerifier [0x0x684833+2619059]
+	GetHandleVerifier [0x0x67fc4a+2599626]
+	GetHandleVerifier [0x0x43b0fa+221050]
+	GetHandleVerifier [0x0x42b378+156152]
+	GetHandleVerifier [0x0x431d2d+183213]
+	GetHandleVerifier [0x0x41c438+94904]
+	GetHandleVerifier [0x0x41c5c2+95298]
+	GetHandleVerifier [0x0x40771a+9626]
+	BaseThreadInitThunk [0x0x766d7ba9+25]
+	RtlInitializeExceptionChain [0x0x77d8c36b+107]
+	RtlClearBits [0x0x77d8c2ef+191]
+
