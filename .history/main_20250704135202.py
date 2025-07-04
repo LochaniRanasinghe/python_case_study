@@ -1,3 +1,6 @@
+import os
+import time
+import logging
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -5,24 +8,24 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-import logging
-import time
-import os
+
+# Setup folders
+os.makedirs("logs", exist_ok=True)
 
 # Setup logging
-os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
-    filename='logs/app.log',
+    filename="logs/app.log",
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
 def setup_driver():
     options = Options()
-    # options.add_argument('--headless')  # Optional for debugging
+    # options.add_argument('--headless')  # Uncomment for headless mode
     options.add_argument('--disable-gpu')
     options.add_argument('--window-size=1920,1080')
-    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    return driver
 
 def main():
     logging.info("Starting browser")
@@ -34,7 +37,7 @@ def main():
 
         wait = WebDriverWait(driver, 15)
 
-        # Handle country splash
+        # Handle splash page (if shown)
         try:
             us_link = WebDriverWait(driver, 5).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "a.us-link"))
@@ -44,24 +47,29 @@ def main():
         except:
             logging.info("No country splash shown")
 
-        # Search for laptops
+        # Search for 'laptop'
         search_bar = wait.until(EC.presence_of_element_located((By.ID, "autocomplete-search-bar")))
+        driver.execute_script("arguments[0].scrollIntoView();", search_bar)
         search_bar.clear()
         search_bar.send_keys("laptop")
+        logging.info("Search submitted")
+
         search_button = wait.until(EC.element_to_be_clickable((By.ID, "autocomplete-search-button")))
         search_button.click()
-        logging.info("Search submitted")
-        time.sleep(3)
 
-        # Click 'Windows laptops' chip
+        time.sleep(3)  # Wait for chip options
+
+        # Click "Windows laptops" chip
         try:
-            chip = wait.until(EC.element_to_be_clickable((By.XPATH, "//span[contains(text(), 'Windows laptops')]")))
+            chip = wait.until(EC.element_to_be_clickable(
+                (By.XPATH, "//span[contains(text(), 'Windows laptops')]")))
             chip.click()
             logging.info("Clicked 'Windows laptops' chip")
-        except:
-            logging.warning("Could not click 'Windows laptops' chip")
+        except Exception as e:
+            logging.warning(f"Could not click chip: {e}")
 
-        time.sleep(4)
+        time.sleep(4)  # Allow filters to load
+
         logging.info("Applying filters...")
 
         # Apply price filters
@@ -72,32 +80,37 @@ def main():
                 logging.info(f"Applied price filter: {price_id}")
                 time.sleep(1)
             except Exception as e:
-                logging.warning(f"Couldn't select price {price_id}: {e}")
+                logging.warning(f"Couldn't apply price filter {price_id}: {e}")
 
-        # Show all brands
+        # Expand brand list if needed
         try:
-            show_all_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-show-more='brand_facet']")))
-            driver.execute_script("arguments[0].click();", show_all_button)
+            show_all_btn = driver.find_element(By.XPATH, "//button[contains(@data-show-more, 'brand_facet')]")
+            driver.execute_script("arguments[0].click();", show_all_btn)
             logging.info("Clicked 'Show all' for brand filters")
             time.sleep(2)
         except Exception as e:
-            logging.warning(f"Couldn't click 'Show all' button: {e}")
+            logging.warning(f"No 'Show all' for brands found: {e}")
 
         # Apply brand filters
         for brand in ["Apple", "Lenovo", "HP"]:
             try:
-                brand_checkbox = driver.find_element(By.ID, brand)
-                driver.execute_script("arguments[0].click();", brand_checkbox)
+                label = WebDriverWait(driver, 5).until(
+                    EC.presence_of_element_located((By.XPATH, f"//label[contains(@for, '{brand}')]"))
+                )
+                checkbox = label.find_element(By.TAG_NAME, "input")
+                driver.execute_script("arguments[0].click();", checkbox)
                 logging.info(f"Applied brand filter: {brand}")
                 time.sleep(1)
             except Exception as e:
-                logging.warning(f"Couldn't select brand {brand}: {e}")
+                logging.warning(f"Brand filter error: {brand}: {e}")
 
-        # Apply rating filter
+        # Apply 4+ rating filter
         try:
-            rating_label = wait.until(EC.presence_of_element_located(
-                (By.XPATH, "//label[contains(., '4') and contains(., 'Up')]")
-            ))
+            rating_label = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located(
+                    (By.XPATH, "//label[contains(., '4') and contains(., 'Up')]")
+                )
+            )
             rating_input = rating_label.find_element(By.TAG_NAME, "input")
             driver.execute_script("arguments[0].click();", rating_input)
             logging.info("Applied rating filter: 4 stars & up")
@@ -105,15 +118,16 @@ def main():
         except Exception as e:
             logging.warning(f"Rating filter error: {e}")
 
+
+        print("✅ Filters applied successfully.")
         logging.info("✅ All filters applied successfully")
-        print("✅ All filters applied successfully")
 
     except Exception as e:
         driver.save_screenshot("logs/error_screenshot.png")
-        logging.error(f"An error occurred: {e}", exc_info=True)
-        print("❌ Filtering failed. Check logs and screenshot.")
+        logging.error(f"Error occurred", exc_info=True)
+        print("❌ Error applying filters. Check logs and screenshot.")
+
     finally:
-        time.sleep(2)
         driver.quit()
         logging.info("Browser closed.")
 

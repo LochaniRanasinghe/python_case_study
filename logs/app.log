@@ -584,3 +584,23 @@ Stacktrace:
 2025-07-04 13:44:34,971 - INFO - Applied rating filter: 4 stars & up
 2025-07-04 13:44:35,972 - INFO - \u2705 All filters applied successfully
 2025-07-04 13:44:39,706 - INFO - Browser closed.
+2025-07-04 13:52:32,493 - INFO - Starting browser
+2025-07-04 13:52:32,493 - INFO - ====== WebDriver manager ======
+2025-07-04 13:52:33,230 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:52:33,371 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-04 13:52:33,700 - INFO - Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-04 13:52:36,975 - INFO - Navigated to BestBuy
+2025-07-04 13:52:44,382 - INFO - No country splash shown
+2025-07-04 13:52:48,142 - INFO - Search submitted
+2025-07-04 13:52:54,502 - INFO - Clicked 'Windows laptops' chip
+2025-07-04 13:52:58,503 - INFO - Applying filters...
+2025-07-04 13:52:58,703 - INFO - Applied price filter: $500_-_$749.99
+2025-07-04 13:52:59,917 - INFO - Applied price filter: $750_-_$999.99
+2025-07-04 13:53:01,119 - INFO - Applied price filter: $1000_-_$1249.99
+2025-07-04 13:53:02,209 - INFO - Clicked 'Show all' for brand filters
+2025-07-04 13:53:04,437 - INFO - Applied brand filter: Apple
+2025-07-04 13:53:05,522 - INFO - Applied brand filter: Lenovo
+2025-07-04 13:53:06,665 - INFO - Applied brand filter: HP
+2025-07-04 13:53:07,692 - INFO - Applied rating filter: 4 stars & up
+2025-07-04 13:53:08,693 - INFO - \u2705 All filters applied successfully
+2025-07-04 13:53:14,413 - INFO - Browser closed.
